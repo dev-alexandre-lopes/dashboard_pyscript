@@ -28,3 +28,4 @@ Nosso projeto visa criar um Dashboard utilizando o Pyscript!
 
 5) Dúvidas sobre o PR. consulte o vídeo: https://www.youtube.com/watch?v=IMerCpaT_zM
 
+6) Outro vídeo para consulta: https://www.youtube.com/watch?v=Du04jBWrv4A
