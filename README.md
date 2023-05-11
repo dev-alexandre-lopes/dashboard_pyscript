@@ -14,6 +14,8 @@ Nosso projeto visa criar um Dashboard utilizando o Pyscript!
 
 [Website](https://pyscript.net/) - Website Pyscript.
 
+[Dashboard](https://dev-alexandre-lopes.github.io/dashboard_pyscript/) - Website do Projeto Dashboard.
+
 ## Orientações:
 
 1) Clone o repositório base;
