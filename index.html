@@ -55,6 +55,54 @@
             </p>
         </div>
     </div>
+
+    <py-script>
+      import numpy as np
+      import pandas as pd
+      import matplotlib.pyplot as plt
+     
+      def plot_tangente():
+        x3 = np.linspace(0, 4 * np.pi, 100)
+        y3 = np.tan(x3)
+        fig, ax3 = plt.subplots()
+        ax3.plot(x3,y3)
+        plt.title("Gráfico da Função Tangente")
+        display(fig, target="graph-area3", append=False)
+
+      plot_tangente()
+
+    </py-script>
+  
+  <div style="display:flex; flex-direction:row;border-width: 2px; padding: 20px; margin: 10px; border-style:solid; border-color: rgb(18, 243, 55)"> 
+        <div id="graph-area3" style="text-align: center;"></div>
+        <div style="text-align: justify;"> 
+            <p> Uma função tangente é uma função matemática que relaciona um ângulo em um círculo unitário
+                com um valor numérico, conhecido como tangente desse ângulo. A função tangente é definida 
+                como a razão entre o comprimento do lado oposto ao ângulo e o comprimento do lado 
+                adjacente do triângulo retângulo formado pelo ângulo e os eixos coordenados.
+            </p>
+            <p> A representação gráfica da função tangente é uma curva periódica, que não está limitada 
+                superiormente ou inferiormente e que se repete a cada π radianos ou 180 graus. Essa curva 
+                possui assíntotas verticais nos pontos em que a função é indefinida, ou seja, onde o 
+                denominador é igual a zero.
+            </p>
+            <p> A função tangente também possui diversas aplicações na matemática e em outras áreas, como 
+                física, engenharia e ciência da computação. Por exemplo, é usada para modelar fenômenos 
+                como a propagação de ondas sonoras e eletromagnéticas, além de ser utilizada em problemas 
+                envolvendo movimento, como a trajetória de um projétil.
+            </p>
+            <p> Além disso, a função tangente é uma das funções trigonométricas básicas, juntamente com a 
+                função seno e a cosseno. Essas funções são amplamente utilizadas em cálculos trigonométricos, 
+                como na resolução de triângulos retângulos e na conversão entre sistemas de coordenadas 
+                cartesianas e polares.
+            </p>
+            <p> Em resumo, a função tangente é uma função matemática fundamental que relaciona um ângulo em 
+                um círculo unitário com um valor numérico conhecido como tangente desse ângulo. Ela é 
+                amplamente utilizada em diversos campos da matemática e da ciência, sendo uma das funções 
+                trigonométricas básicas e tendo diversas aplicações práticas.
+            </p>
+        </div>
+    </div>
   </body>
 </html>
 
