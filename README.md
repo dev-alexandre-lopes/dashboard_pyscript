@@ -6,6 +6,14 @@
 
 Nosso projeto visa criar um Dashboard utilizando o Pyscript! 
 
+## Boas Referências e a Documentação Oficial:
+
+[Website](https://www.python.org/) - Website Python Language.
+
+[Repositório](https://github.com/python) - Repositório Oficial Python.
+
+[Website](https://pyscript.net/) - Website Pyscript.
+
 ## Orientações:
 
 1) Clone o repositório base;
