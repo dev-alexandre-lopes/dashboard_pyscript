@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Funções Trigonométricas</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
+  <body>
+
+    <py-config>
+      packages = ["matplotlib", "pandas" , "numpy"]
+    </py-config>
+
+    <py-script>
+      import numpy as np
+      import pandas as pd
+      import matplotlib.pyplot as plt
+     
+      def plot_seno():
+        x1 = np.linspace(0, 4 * np.pi, 100)
+        y1 = np.sin(x1)
+        fig, ax1 = plt.subplots()
+        ax1.plot(x1,y1)
+        plt.title("Gráfico da Função Seno")
+        display(fig, target="graph-area1", append=False)
+
+      plot_seno()
+
+    </py-script>
+    <div style="display:flex; flex-direction:row; border-width: 2px; padding:20px; margin:10px; border-style:solid; border-color: rgb(43, 30, 230)">                 
+        <div id="graph-area1" style="text-align:center;"></div>
+        <div style="text-align: justify;"> 
+            <p> Uma função seno é uma função matemática que relaciona um ângulo em um círculo unitário
+                com um valor numérico, conhecido como seno desse ângulo. A função seno é definida como
+                a razão entre o comprimento do lado oposto ao ângulo e o comprimento da hipotenusa do 
+                triângulo retângulo formado pelo ângulo e os eixos coordenados.
+            </p>
+            <p> A representação gráfica da função seno é uma curva periódica, que oscila entre os valores
+                -1 e 1, e que se repete a cada 2π radianos ou 360 graus. Essa curva é simétrica em relação 
+                ao eixo horizontal, passando pelo ponto (0,0) no centro do gráfico.
+            </p>
+            <p> A função seno tem diversas aplicações na matemática e em outras áreas, como física, engenharia
+                e ciência da computação. Por exemplo, é usada para modelar fenômenos periódicos, como as 
+                variações de temperatura ao longo do ano ou as ondas sonoras e eletromagnéticas.
+            </p>
+            <p> Além disso, a função seno é uma das funções trigonométricas básicas, juntamente com a função
+                cosseno e a tangente. Essas funções são amplamente utilizadas em cálculos trigonométricos, 
+                como na resolução de triângulos retângulos e na conversão entre sistemas de coordenadas 
+                cartesianas e polares.
+            </p>
+            <p> Em resumo, a função seno é uma função matemática fundamental que relaciona um ângulo em um 
+                círculo unitário com um valor numérico conhecido como seno desse ângulo. Ela é amplamente 
+                utilizada em diversos campos da matemática e da ciência, sendo uma das funções 
+                trigonométricas básicas e tendo diversas aplicações práticas.
+            </p>
+        </div>
+    </div>
+  </body>
+</html>
+
